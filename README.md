@@ -16,6 +16,7 @@ otp-data
 │   └── map.osm.pbf  
 └── build-config.json  
 ## How To Use:
-Use any of the folders here to create Docker images to deploy to the cloud. 
+Use any of the folders here to create Docker images to deploy to the cloud.  
+Docker will throw an error if there is not an otp-data folder in the same directory as the Dockerfile. Simply add a folder named "otp-data" in the same directory as the Dockerfile to build the image. 
 ## License:
 No license, use this however you want!

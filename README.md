@@ -5,7 +5,7 @@ Some Dockerfiles to set up and deploy an OpenTripPlanner instance.
 build_serve_transit builds and saves a transit graph before actually serving the OpenTripPlanner instance. A street graph must be built beforehand.  
 build_street builds and saves a street graph
 write_build-config helps set up a build-config.json file for the filesystem these images use.
-## Filesystem: (only if using write_build-config, otherwise everything goes in /var/opentripplanner)
+## Filesystem: (only if using write_build-config)
 /var/opentripplanner  
 ├── gtfs  
 │   └── example.gtfs.zip  

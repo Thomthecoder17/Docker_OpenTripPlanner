@@ -20,3 +20,5 @@ Some Dockerfiles to set up and deploy an OpenTripPlanner instance.
 Use any of the folders here to create Docker images to deploy to the cloud. Make sure to mount the directory containing your OTP data to /var/opentripplanner and make sure to use either put all OTP-related files directly in var/opentripplanner or use the filesystem above for the data.
 ## License:
 No license, use this however you want!
+## Example data:
+The data I used for my OpenTripPlanner project can be found at https://console.cloud.google.com/storage/browser/ma-otp. This data includes as much transit data I could find for the state of Massachusetts. For more information about the GTFS feeds used, check out my other repository at https://github.com/Thomthecoder17/MA_GTFS.

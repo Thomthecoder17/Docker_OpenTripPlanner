@@ -1,6 +1,6 @@
 FROM docker.io/opentripplanner/opentripplanner:latest
 
 ENV JAVA_OPTIONS="-Xmx8G"
-WORKDIR /otp-data
+WORKDIR /var/opentripplanner
 
-CMD ["--buildStreet"] 
+CMD ["--loadStreet","--save"] 
